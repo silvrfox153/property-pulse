@@ -1,4 +1,3 @@
-//NEXT LESSON: Server Components, Client Components & Router Hook
 import Link from 'next/link';
 
 const HomePage = () => {
