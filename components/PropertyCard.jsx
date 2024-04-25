@@ -8,7 +8,7 @@ import {
   FaMapMarker,
 } from 'react-icons/fa';
 
-const ProperyCard = ({ property }) => {
+const PropertyCard = ({ property }) => {
   const getRateDisplay = () => {
     const { rates } = property;
 
@@ -92,4 +92,4 @@ const ProperyCard = ({ property }) => {
   );
 };
 
-export default ProperyCard;
+export default PropertyCard;
