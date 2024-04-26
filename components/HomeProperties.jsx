@@ -32,7 +32,6 @@ const HomeProperties = () => {
         >
           View All Properties
         </Link>
-        <div>{properties[0].name}</div>
       </section>
     </>
   );
