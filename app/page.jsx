@@ -1,13 +1,16 @@
-// https://www.traversymedia.com/products/next-js-from-scratch-2024/categories/2154793741/posts/2175322848
+//https://www.traversymedia.com/products/next-js-from-scratch-2024/categories/2154793741/posts/2175322863
 
-import Link from 'next/link';
+import Hero from '@/components/Hero';
+import InfoBoxes from '@/components/InfoBoxes';
+import HomeProperties from '@/components/HomeProperties';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className="text-3xl">Welcome</h1>
-      <Link href="/properties">Go To Properties</Link>
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes />
+      <HomeProperties />
+    </>
   );
 };
 
