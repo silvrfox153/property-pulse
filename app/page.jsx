@@ -1,4 +1,4 @@
-//https://www.traversymedia.com/products/next-js-from-scratch-2024/categories/2154793741/posts/2175322863
+// https://www.traversymedia.com/products/next-js-from-scratch-2024/categories/2154793741/posts/2175322867
 
 import Hero from '@/components/Hero';
 import InfoBoxes from '@/components/InfoBoxes';

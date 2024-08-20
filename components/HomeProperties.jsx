@@ -13,7 +13,7 @@ const HomeProperties = () => {
             Recent Properties
           </h2>
           {properties.length === 0 ? (
-            <p>No propertirs found</p>
+            <p>No properties found</p>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {recentProperties.map((property) => (
